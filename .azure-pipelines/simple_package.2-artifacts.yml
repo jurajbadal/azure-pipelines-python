@@ -93,7 +93,7 @@ jobs:
   # Run on a Microsoft-hosted agent running Ubuntu-16.04
   # https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops
   pool:
-    vmImage: ubuntu-16.04
+    vmImage: ubuntu-latest
 
   # We want to wait for all Build Jobs to complete before running the Publish Job
   dependsOn: Build
