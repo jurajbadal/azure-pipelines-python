@@ -40,10 +40,14 @@ jobs:
   strategy:
     matrix:
 <<<<<<< HEAD
+<<<<<<< HEAD
       python39:
 =======
       python36:
 >>>>>>> 538d7386bdc89e07455e5ac8a14fa7a5a22ad99a
+=======
+      python39:
+>>>>>>> 974f4b8f75296dc1a9b318ad94d23944fa45815c
         pythonVersion: 3.9
       python37:
         pythonVersion: 3.7
